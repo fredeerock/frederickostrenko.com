@@ -1,0 +1,43 @@
+<script type="text/javascript">
+  function setup() {
+    var myCanvas = createCanvas(1900, 500, WEBGL);
+    myCanvas.parent('colorWall');
+    cursor(CROSS);
+  }
+
+  var loc = 1;
+  var dir = 1;
+
+  function draw() {
+    var rrr = mouseY/height;
+    var bbb = mouseX/width;
+
+    pointLight(255, 0, 0, 0, loc, rrr);
+    pointLight(0, 255, 0, loc, -loc, 0.5);
+    pointLight(0, 0, 255, -loc, -loc, bbb);
+
+    ambientMaterial(100, 100, 100);
+    plane(1900, 500);
+
+    if (loc > 1) {
+      dir = -1;
+    }
+
+    if (loc < -1) {
+      dir = 1;
+    }
+
+    loc = loc + 0.001*dir;
+
+    if (mouseIsPressed) {
+      for(var i = 0; i < 4 ; i++){
+        rotateX(radians(frameCount));
+        rotateY(radians(mouseY/10));
+        rotateZ(radians(mouseX/10));
+        basicMaterial(255, 255, 255);
+        box(50);
+      } 
+  }
+}
+
+</script>
