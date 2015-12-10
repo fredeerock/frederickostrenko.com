@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Derick Ostrenko
 locale:           en_US
-url:
+# url:
 
 
 # Jekyll configuration
@@ -26,27 +26,27 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Derick Ostrenko
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
+  bio: "Electronic artist & educator."
+  email: dostrenko@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
+  twitter: fredeerock
+  facebook:
   google:
-    plus: #username
+    plus:
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: fredeerock
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: dostrenko
   xing: #username
   instagram: #username
   lastfm: #username
-  tumblr: #username
+  tumblr:
   pinterest: #username
   foursquare: #username
   steam: #username
@@ -54,7 +54,7 @@ owner:
   youtube: #username
   soundcloud: #username
   weibo: #username
-  flickr: #username
+  flickr: dostrenko
   codepen: #username
 
 include: [".htaccess"]
