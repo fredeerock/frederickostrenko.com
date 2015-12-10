@@ -14,7 +14,17 @@
 {% include _navigation.html %}
 
   <div class="image-wrap">
-  {% include colorWall.html %}
+  
+
+
+{% if page.image.feature %}
+    <div id="colorWall">
+      {% include colorWall.html %}
+    </div>
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+
   
   </div>
 

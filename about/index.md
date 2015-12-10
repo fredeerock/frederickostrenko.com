@@ -1,25 +1,13 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, responsive]
-modified: 2014-08-08T20:53:07.573882-04:00
-comments: true
+title: About
+modified: 2015-12-10
 image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  colorWall: true
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+Frederick “Derick” Ostrenko, is a media artist and Assistant Professor at Louisiana State University (LSU). He holds a joint-appointment in the Digital Art concentration at the School of Art and the Cultural Computing research group at the Center for Computation and Technology (CCT). Derick creates physical and virtual systems that examine the intersections of media, culture, and technology. He employs custom hardware and software that use various interfaces such as mobile applications, brain waves, generative visualizations, video processing, animation, and games. His research focuses on pushing art and technology to reveal hidden networks between people by creating structures for innovative forms of expression and discovery. Derick received his MFA in Digital+Media from the Rhode Island School of Design.
 
-## Minimal Mistakes is all about:
+Most recently Derick has shown his work at venues including the International Symposium of Electronic Art (Albuquerque, NM), New York University (New York, NY), Fountain Art Fair (Miami, FL), Buffalo Media Resources (Buffalo, NY), the Archie Bray Foundation (Helena, MT), the Polk Museum of Art (Lakeland, FL), NWEAMO (San Diego, CA), and the at the National Academy (New York, NY). 
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+In conjunction with his artistic practice, Ostrenko has also worked professionally in exhibit fabrication, video production, 3D modeling, and web development. As the current area head for Digital Art at the LSU School of Art, Derick teaches classes in animation, creative coding, 3D graphics, interactive art, and video production.

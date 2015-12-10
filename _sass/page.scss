@@ -313,6 +313,11 @@ $button-size: 1.5rem;
 		height: auto;
 		-ms-interpolation-mode: bicubic;
 	}
+	canvas {
+		width: 100% !important;
+		height: auto !important;
+		-ms-interpolation-mode: bicubic;
+	}
 	.headline-wrap {
 		position: absolute;
 		bottom: 25px;
