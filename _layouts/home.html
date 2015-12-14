@@ -13,26 +13,35 @@
 
 {% include _navigation.html %}
 
+{% if page.image.feature or page.image.colorWall %}
   <div class="image-wrap">
   
-
-
-{% if page.image.feature %}
-    <div id="colorWall">
-      {% include colorWall.html %}
-    </div>
+  {% if page.image.colorWall == true %}
+    <div id="colorWall">{% include colorWall.html %}</div>
+  {% else %}
+    <img src=
+    {% if page.image.feature contains 'http' %}
+        "{{ page.image.feature }}"
+      {% else %}
+        "{{ site.url }}/images/{{ page.image.feature }}"
+      {% endif %}
+    alt="{{ page.title }} feature image">
+    {% endif %}
+  {% if page.image.credit %}
+      <span class="image-credit">Image Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
-
-
-  
-  </div>
 
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
   <div id="index">
+    <h3><a href="{{ site.url}}/posts/">About</a></h3>
+    <article>
+      <p>{{ site.owner.shortbio }} <a href="{{site.url}}/about">[More...]</a></p>
+    </article>
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
     {% for post in site.posts limit:5 %}
     <article>
