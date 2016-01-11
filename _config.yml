@@ -4,6 +4,10 @@ title:            Derick Ostrenko
 locale:           en_US
 url:              http://fredeerock.github.io
 
+# for bookmarklet
+github:
+  repo: fredeerock/fredeerock.github.io
+  branch: master
 
 # Jekyll configuration
 
