@@ -1,0 +1,135 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature or page.image.colorWall %}
+  <div class="image-wrap">
+
+  {% if page.image.colorWall == true %}
+    <div id="colorWall">{% include colorWall.html %}</div>
+  {% else %}
+    <img src=
+    {% if page.image.feature contains 'http' %}
+        "{{ page.image.feature }}"
+      {% else %}
+        "{{ site.url }}/images/{{ page.image.feature }}"
+      {% endif %}
+    alt="{{ page.title }} feature image">
+    {% if page.image.credit %}
+      <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    {% endif %}
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article class="page">
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+      {% if page.share == true %}
+        <hr />
+        {% include _social-share.html %}
+      {% endif %}
+    </div><!-- /.article-wrap -->
+    {% if site.owner.disqus-shortname and page.comments == true %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+
+    {% endif %}
+
+    <div id="pictures">
+      pix
+    </div>
+
+    <script>
+
+    function loadJSON(callback, urltoload) {
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("application/json");
+      xobj.open('GET', urltoload, true);
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState === 4 && xobj.status === 200) {
+          callback(xobj.responseText);
+        }
+      };
+      xobj.send(null);
+    }
+
+    function init() {
+      var method="flickr.photosets.getPhotos";
+      var photoset_id="72157632663961881";
+      var user_id="87505215@N00";
+      var api_key="e18cb36f3d8dda74841c13c70c6703d1";
+      var format="json";
+      var nojsoncallback="1";
+
+      var flickrurl = "https://api.flickr.com/services/rest/"+
+      "?method="+method+
+      "&photoset_id="+photoset_id+
+      "&user_id="+user_id+
+      "&api_key="+api_key+
+      "&format="+format+
+      "&nojsoncallback="+nojsoncallback;
+
+      loadJSON(function(response) {
+        var json_rsp = JSON.parse(response);
+        console.log("aj", json_rsp);
+        placeImages(json_rsp);
+      }, flickrurl);
+    }
+
+    init();
+
+      function placeImages(rsp) {
+        var s = "";
+        for (var i=0; i < rsp.photoset.photo.length; i++) {
+          var photo = rsp.photoset.photo[i];
+
+          var t_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "t.jpg";
+
+          var p_url = "http://www.flickr.com/photos/" + photo.owner + "/" + photo.id;
+
+          s += '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + t_url + '"/>' + '</a>';
+        }
+        document.getElementById("pictures").innerHTML=s;
+
+        console.log("s",s);
+        // document.writeln(s);
+      }
+      </script>
+
+<!-- <script src="https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=e18cb36f3d8dda74841c13c70c6703d1&format=json">
+</script> -->
+
+
+  </article>
+</div><!-- /#index -->
+
+
+
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>
