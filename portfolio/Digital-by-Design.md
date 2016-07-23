@@ -1,0 +1,7 @@
+---
+layout: portfolio-item
+title: Digital by Design
+excerpt: Digital Art students senior show.
+tags: [portfolio]
+photoset_id: 72157641985572654
+---
