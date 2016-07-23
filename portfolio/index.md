@@ -1,6 +1,5 @@
 ---
 layout: portfolio-index
 title: Portfolio
-image:
-  colorWall: true
 ---
+The following is a sampling of recent works. For a more complete archive please see my Flickr portfolio collection [here](https://www.flickr.com/photos/fredeerock/collections/72157623251379167/). 

@@ -42,6 +42,7 @@
     <h1>{{ page.title }}</h1>
     <div class="article-wrap">
       {{ content }}
+      <div class="flickr_desc"></div>
       {% if page.share == true %}
         <hr />
         {% include _social-share.html %}
@@ -52,10 +53,9 @@
 
     {% endif %}
 
-    <div class="">
+<br  />
     <figure class="pictures whole"></figure>
     <!-- <div class="bigpic"></div> -->
-    </div>
 
     <script>
 
@@ -71,9 +71,9 @@
       xobj.send(null);
     }
 
-    function init() {
+    function initPhotos() {
       var method="flickr.photosets.getPhotos";
-      var photoset_id="72157632663961881";
+      var photoset_id="{{ page.photoset_id }}";
       var user_id="87505215@N00";
       var api_key="e18cb36f3d8dda74841c13c70c6703d1";
       var format="json";
@@ -89,12 +89,36 @@
 
       loadJSON(function(response) {
         var json_rsp = JSON.parse(response);
-        console.log("aj", json_rsp);
+        console.log(json_rsp);
         placeImages(json_rsp);
       }, flickrurl);
     }
 
-    init();
+    function initSetInfo() {
+      var method="flickr.photosets.getInfo";
+      var photoset_id="{{ page.photoset_id }}";
+      var user_id="87505215@N00";
+      var api_key="e18cb36f3d8dda74841c13c70c6703d1";
+      var format="json";
+      var nojsoncallback="1";
+
+      var flickrurl = "https://api.flickr.com/services/rest/"+
+      "?method="+method+
+      "&photoset_id="+photoset_id+
+      "&user_id="+user_id+
+      "&api_key="+api_key+
+      "&format="+format+
+      "&nojsoncallback="+nojsoncallback;
+
+      loadJSON(function(response) {
+        var json_rsp = JSON.parse(response);
+        // console.log("aj", json_rsp);
+        placeInfo(json_rsp);
+      }, flickrurl);
+    }
+
+    initPhotos();
+    initSetInfo();
 
     function imagechange(it) {
       document.getElementsByClassName("bigpic")[0].innerHTML='<img id="bigit" src="' + it + '"/>';
@@ -106,6 +130,11 @@
 
 
       // console.log(h, it);
+    }
+
+    function placeInfo(rsp){
+      document.getElementsByClassName("flickr_desc")[0].innerHTML=rsp.photoset.description._content;
+      console.log(rsp.photoset.description);
     }
 
       function placeImages(rsp) {
@@ -122,16 +151,15 @@
           var z_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "z.jpg";
 
           var p_url = "http://www.flickr.com/photos/" + rsp.photoset.owner + "/" + photo.id;
-          z = '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
+          // z = '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
           // s += '<img onclick="imagechange(\'' + z_url + '\')" alt="'+ photo.title + '"src="' + z_url + '"/>';
           s += '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
 
         }
         document.getElementsByClassName("pictures")[0].innerHTML=s;
-        document.getElementsByClassName("bigpic")[0].innerHTML=z;
+        // document.getElementsByClassName("bigpic")[0].innerHTML=z;
 
-
-        console.log("s",s);
+        // console.log("s",s);
         // document.writeln(s);
       }
       </script>

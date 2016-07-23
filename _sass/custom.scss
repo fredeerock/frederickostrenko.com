@@ -28,6 +28,17 @@
 // 	margin-left: 79px;
 // }
 
+/* this is the magic */
+.flickr_desc a {
+  text-decoration:none;
+  border-bottom: 1px solid black;
+  transition: background 0.3s cubic-bezier(.33,.66,.66,1);
+}
+
+.flickr_desc a:hover {
+  background: yellow;
+}
+
 .whole {
 	@include container;
 	@include clearfix;
