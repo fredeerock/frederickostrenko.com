@@ -1,0 +1,48 @@
+// @media (max-width: 600px) {
+// 	.pictures img {
+// 		margin-bottom: 4px;
+// 	}
+//
+// 	.pictures {
+// 		display: none;
+// 	}
+//
+// 	.bigpic {
+// 		margin-left: 0px;
+// 	}
+//
+// }
+//
+// .pictures img {
+// 	margin-bottom: 4px;
+// }
+//
+// .pictures {
+// 	width: 75px;
+// 	float: left;
+// 	height: 250px;
+// 	overflow-y: scroll;
+// }
+//
+// .bigpic {
+// 	margin-left: 79px;
+// }
+
+.whole {
+	@include container;
+	@include clearfix;
+	@media #{$micro} {
+		img {
+			@include grid(12,12);
+		}
+		figcaption {
+			@include grid(12,12);
+		}
+	}
+}
+
+.whole img {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px dashed black;
+}
