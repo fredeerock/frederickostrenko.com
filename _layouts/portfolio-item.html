@@ -54,6 +54,7 @@
     {% endif %}
 
 <br  />
+    <figure class="videos whole"></figure>
     <figure class="pictures whole"></figure>
     <!-- <div class="bigpic"></div> -->
 
@@ -77,6 +78,7 @@
       var user_id="87505215@N00";
       var api_key="e18cb36f3d8dda74841c13c70c6703d1";
       var format="json";
+      var extras="media";
       var nojsoncallback="1";
 
       var flickrurl = "https://api.flickr.com/services/rest/"+
@@ -85,6 +87,7 @@
       "&user_id="+user_id+
       "&api_key="+api_key+
       "&format="+format+
+      "&extras="+extras+
       "&nojsoncallback="+nojsoncallback;
 
       loadJSON(function(response) {
@@ -140,29 +143,44 @@
       function placeImages(rsp) {
         var s = "";
         var z = "";
+        var v = "";
+
 
         for (var i=0; i < rsp.photoset.photo.length; i++) {
+
           var photo = rsp.photoset.photo[i];
 
-          var t_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "t.jpg";
+          if(photo.media === "photo") {
 
-          var s_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "s.jpg";
+            var t_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "t.jpg";
 
-          var z_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "z.jpg";
+            var s_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "s.jpg";
 
-          var p_url = "http://www.flickr.com/photos/" + rsp.photoset.owner + "/" + photo.id;
-          // z = '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
-          // s += '<img onclick="imagechange(\'' + z_url + '\')" alt="'+ photo.title + '"src="' + z_url + '"/>';
-          s += '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
+            var z_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "z.jpg";
+
+            var p_url = "http://www.flickr.com/photos/" + rsp.photoset.owner + "/" + photo.id;
+            // z = '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
+            // s += '<img onclick="imagechange(\'' + z_url + '\')" alt="'+ photo.title + '"src="' + z_url + '"/>';
+            s += '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
+          }
+
+          if(photo.media === "video") {
+
+            var v_url = "http://farm" + photo.farm + ".static.flickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_" + "z.jpg";
+
+            v += "<a data-flickr-embed=\"true\" ><img src=\""+v_url+"\"></a>";
+
+          }
 
         }
-        document.getElementsByClassName("pictures")[0].innerHTML=s;
-        // document.getElementsByClassName("bigpic")[0].innerHTML=z;
 
-        // console.log("s",s);
-        // document.writeln(s);
+        document.getElementsByClassName("videos")[0].innerHTML=v;
+        document.getElementsByClassName("pictures")[0].innerHTML=s;
+
       }
       </script>
+
+      <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
   </article>
 </div><!-- /#index -->
