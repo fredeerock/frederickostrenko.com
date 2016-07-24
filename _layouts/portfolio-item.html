@@ -161,7 +161,7 @@
             var p_url = "http://www.flickr.com/photos/" + rsp.photoset.owner + "/" + photo.id;
             // z = '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
             // s += '<img onclick="imagechange(\'' + z_url + '\')" alt="'+ photo.title + '"src="' + z_url + '"/>';
-            s += '<a href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
+            s += '<a target="_blank" href="' + p_url + '">' + '<img alt="'+ photo.title + '"src="' + z_url + '"/>' + '</a>';
           }
 
           if(photo.media === "video") {
