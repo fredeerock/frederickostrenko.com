@@ -66,5 +66,6 @@ owner:
   shortbio: >
     Frederick “Derick” Ostrenko, is a media artist and Assistant Professor at Louisiana State University (LSU). He holds a joint-appointment in the Digital Art concentration at the School of Art and the Cultural Computing research group at the Center for Computation and Technology (CCT). Derick creates physical and virtual systems that examine the intersections of media, culture, and technology. He employs custom hardware and software that use various interfaces such as mobile applications, brain waves, generative visualizations, video processing, animation, and games. His research focuses on pushing art and technology to reveal hidden networks between people by creating structures for innovative forms of expression and discovery. Derick received his MFA in Digital+Media from the Rhode Island School of Design.
 
-include: [".htaccess"]
+include: [".htaccess", ".well-known"]
+
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
