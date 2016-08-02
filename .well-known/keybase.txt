@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/fredeerock
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://frederickostrenko.com
+  * I am fredeerock (https://keybase.io/fredeerock) on keybase.
+  * I have a public key with fingerprint 9CE9 3A05 F2C0 56B1 3143  5DB5 5356 6C34 9AD2 7695
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012a8481c43103597e17aba493d30b88661872d7467143a4cb61f0b596c209f2710a",
+            "fingerprint": "9ce93a05f2c056b131435db553566c349ad27695",
+            "host": "keybase.io",
+            "key_id": "53566c349ad27695",
+            "kid": "01012a8481c43103597e17aba493d30b88661872d7467143a4cb61f0b596c209f2710a",
+            "uid": "602989ca9f2bc6aefafee9cdfafe6f19",
+            "username": "fredeerock"
+        },
+        "revoke": {
+            "sig_ids": [
+                "fb082bc630f75fc4bcbf53aba9ef30a91eb9619175ece64f665726cb6a3744cd0f"
+            ]
+        },
+        "service": {
+            "hostname": "frederickostrenko.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470149548,
+    "expire_in": 157680000,
+    "prev": "a29b4975426917ca6ed5c9b97c8c6f398e0629dbedb761709f1b19aa022ea668",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMJ2AnicrZJvaFZVHMefaQv3SGIzLUMmnaFJjHHOvefPPU8Ui71oOVAn4kAdj+ec
+e852eea9j/e529Nawz8hJJuCWjRnLxLn34ZojiGCosNUrL1xFhFC4QsrsyyKBGOj
+c0dBL3rZeXM4P77fz+97fudcfWp2JlvRf+vVww/9+9sqPrsy1ZVp/ejcSC+Qkd8D
+cr2goGc23enrUpIvBD7IAYggcoSHPaSwi6BLONOICSkwd30XSs+jFHnM8RmmDGFX
+YCUpMlASTpUDuXEYggLUAROE7TouxkGYWCxXmrsCEuMoSKhErrUSXxLiEkqVi7nw
+HUY5scaOqJQ6bDgpSro+iGzNHvIz8f5D/z/n7prBUehwjyth61JRoY0wWnPlpzs1
+iKfCko5DsUVbtYm1r3UcqQLoqwOx7o4KOp1sKWi3sUsgtxEYCb0U5ULDiFFYKmmI
+a/NxbVwoONKSU8QRI1ppig2lhDnUZhQuw1j50IA2y7Y9uwM1A0/n9O/+caAKthTr
+sBDVq2iLjViMoyRSUaeVdCRJMZemS3qKqaWsZf5vWF4GoW9fyxq6dVwKohDkkFWq
+JEjpCDOIMCfYqwP6zWIQ63yQKgijHrQrbaO7LVI4XGLOCHaovYcSVPtEccmZ8hQ1
+Lvc0pA73pfYlo4jZmSOJuBDQcbSg1APp9baGEcjZTolot0g7wFAkXbEGfeOXNz2R
+qchmnqyclf7iTLZq/j9/u4rPyew7cMfLfnt+O5bfHDm8d+PKzauzlTUDY7+eHzr2
+7uKan6feeXb00P4Lzy+5//jPFw9+/PoLTQNT65Kb/ap2+cFZL41+8MC8seq5a221
+5x5X//Z5X8ugLDdODLZ80XSGLttx++7xyYWTxaqx15pOHx0tlzZM/7T9q7H2ykfH
+wDNzViwdv3D5k+qR99c3d5RvPdgdrL24wIT9J1fVXp88NTa9+1DnpYk1H24YnHti
+T+uZt+Yt4vkvBzY9vath5UTz0PzhT1/5fllrdc9o5tKBH5a2vfdj/eqzvQ9PjrQe
+udL8S3APfj097/TbcxcPjRe2rRl+GTd+V9Ph7lpy/I/yo5bmPez3rUcXNuT3N04W
+G3be+AvS6V+C
+=+Cqe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fredeerock
+
+==================================================================
