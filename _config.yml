@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Derick Ostrenko
-locale:           en_US
-url:              http://fredeerock.github.io
+title: Derick Ostrenko
+locale: en_US
+url: http://fredeerock.github.io
 
 # for bookmarklet
 github:

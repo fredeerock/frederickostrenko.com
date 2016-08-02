@@ -81,6 +81,8 @@
       var extras="media";
       var nojsoncallback="1";
 
+      console.log("id", {{ page.photoset_id }});
+
       var flickrurl = "https://api.flickr.com/services/rest/"+
       "?method="+method+
       "&photoset_id="+photoset_id+
@@ -93,6 +95,7 @@
       loadJSON(function(response) {
         var json_rsp = JSON.parse(response);
         console.log(json_rsp);
+        console.log(flickrurl);
         placeImages(json_rsp);
       }, flickrurl);
     }
@@ -131,8 +134,6 @@
         document.getElementsByClassName("pictures")[0].style.height=h+"px";
       };
 
-
-      // console.log(h, it);
     }
 
     function placeInfo(rsp){
