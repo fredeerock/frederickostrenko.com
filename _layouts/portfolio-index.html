@@ -51,19 +51,6 @@
     {% endfor %}
     </article>
 
-<h1>grouping start</h1>
-
-
-    {% assign groups = site.pages | where: "tag", "portfolio" %}
-
-    {% for group in groups %}
-    {{ group.name }}
-    {% for item in group.items %}
-        {{item.abbrev}}
-    {%endfor%}
-    {%endfor%}
-    <h1>grouping end</h1>
-
   </div><!-- /#index -->
 </div><!-- /#main -->
 
