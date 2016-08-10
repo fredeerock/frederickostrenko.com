@@ -29,6 +29,12 @@
 // }
 
 /* this is the magic */
+
+// .flickr_desc {
+//   margin: 0;
+//   padding: 0;
+// }
+
 .flickr_desc a {
   text-decoration:none;
   border-bottom: 1px solid black;
@@ -36,6 +42,16 @@
 }
 
 .flickr_desc a:hover {
+  background: yellow;
+}
+
+.article-info a {
+  text-decoration:none;
+  border-bottom: 1px solid black;
+  transition: background 0.3s cubic-bezier(.33,.66,.66,1);
+}
+
+.article-info a:hover {
   background: yellow;
 }
 
@@ -58,8 +74,23 @@
 	border-top: 1px dashed black;
 }
 
+.videos iframe {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px dashed black;
+}
+
 .iframewrap{
 	margin-top: 5px;
   padding-top: 5px;
 	border-top: 1px dashed black;
+}
+
+.article-info ul{
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 25px;
+  // border-bottom: 1px dashed black;
 }

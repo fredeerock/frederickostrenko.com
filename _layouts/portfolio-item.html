@@ -40,6 +40,25 @@
   </div>
   <article class="page">
     <h1>{{ page.title }}</h1>
+    <div class ="article-info">
+      <ul>
+        {% if page.year %}
+          <li><strong>Year:</strong> {{ page.year }}
+        {% endif %}
+        {% if page.artists == 'Derick Ostrenko' %}
+          <li><strong>Artist:</strong> {{ page.artists }}
+        {% endif %}
+        {% if page.artists != 'Derick Ostrenko' and page.artists != null %}
+          <li><strong>Artists:</strong> {{ page.artists }}
+        {% endif %}
+        {% if page.medium %}
+          <li><strong>Medium:</strong> {{ page.medium }}
+        {% endif %}
+        {% if page.website %}
+          <li><strong>Website:</strong> <a href="{{ page.website }}">{{ page.website }}</a>
+        {% endif %}
+      </ul>
+    </div>
     <div class="article-wrap">
       {{ content }}
       <div class="flickr_desc"></div>
@@ -62,8 +81,8 @@
         </div>
       {% endfor %}
     </figure>
-    <figure class="videos whole"></figure>
     <figure class="pictures whole"></figure>
+    <figure class="videos whole"></figure>
     <!-- <div class="bigpic"></div> -->
 
     <script>
