@@ -5,4 +5,8 @@ excerpt: Museum exhibition.
 tags: [portfolio]
 year: 2005
 photoset_id: 72157623376151914
+youtube_id:
+artists:
+medium:
+website:
 ---

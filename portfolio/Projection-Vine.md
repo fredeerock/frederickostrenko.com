@@ -7,6 +7,6 @@ year: 2014
 photoset_id: 72157651187495462
 youtube_id:
 artists: Derick Ostrenko
-medium: iPad Minis, Custom software
+medium: 35mm slides, Vine.com, slide projector, Arduino
 website:
 ---

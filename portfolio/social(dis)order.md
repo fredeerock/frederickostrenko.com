@@ -5,4 +5,8 @@ excerpt: Curated new media exhibition.
 tags: [portfolio]
 year: 2012
 photoset_id: 72157632663785285
+youtube_id:
+artists:
+medium:
+website:
 ---

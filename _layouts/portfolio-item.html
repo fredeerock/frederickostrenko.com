@@ -57,6 +57,12 @@
         {% if page.website %}
           <li><strong>Website:</strong> <a href="{{ page.website }}">{{ page.website }}</a>
         {% endif %}
+        {% if page.websites %}
+          <li><strong>Websites:</strong>
+          {% for websites in page.websites %}
+             <a href="http://{{ websites }}">{{ websites }}</a>
+          {% endfor %}
+        {% endif %}
       </ul>
     </div>
     <div class="article-wrap">
@@ -164,8 +170,12 @@
     }
 
     function placeInfo(rsp){
-      document.getElementsByClassName("flickr_desc")[0].innerHTML=rsp.photoset.description._content;
-      console.log(rsp.photoset.description);
+      {% if page.description %}
+        document.getElementsByClassName("flickr_desc")[0].innerHTML="{{ page.description }}";
+      {% else %}
+        document.getElementsByClassName("flickr_desc")[0].innerHTML=rsp.photoset.description._content;
+      //console.log(rsp.photoset.description);
+      {% endif %}
     }
 
       function placeImages(rsp) {
