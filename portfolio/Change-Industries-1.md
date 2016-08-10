@@ -5,4 +5,7 @@ excerpt: Propaganda machine.
 tags: [portfolio]
 year: 2008
 photoset_id: 72157623482004340
+youtube_id: none
+artists: Derick Ostrenko, Adam Grey
+medium: Photo Printer, Postcards, Java, Processing
 ---

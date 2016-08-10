@@ -54,6 +54,14 @@
     {% endif %}
 
 <br  />
+
+    <figure class="youtubes whole">
+      {% for youtube_id in page.youtube_id %}
+        <div class="iframewrap">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ youtube_id }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+      {% endfor %}
+    </figure>
     <figure class="videos whole"></figure>
     <figure class="pictures whole"></figure>
     <!-- <div class="bigpic"></div> -->
