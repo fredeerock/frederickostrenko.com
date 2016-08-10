@@ -7,5 +7,5 @@ year: 2011
 photoset_id: 72157633494134842
 youtube_id:
 artists: Derick Ostrenko, Phil Winfield
-medium: Java
+medium: Java, Processing
 ---

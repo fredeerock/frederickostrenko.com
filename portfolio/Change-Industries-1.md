@@ -7,5 +7,5 @@ year: 2008
 photoset_id: 72157623482004340
 youtube_id:
 artists: Derick Ostrenko, Adam Grey
-medium: Photo Printer, Postcards, Java, Processing
+medium: Photo printer, postcards, Java, Processing
 ---

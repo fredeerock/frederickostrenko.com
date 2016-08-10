@@ -6,6 +6,6 @@ tags: [portfolio]
 year: 2014
 photoset_id: 72157641985572654
 youtube_id:
-artists: Derick Ostrenko
+artists:
 medium:
 ---

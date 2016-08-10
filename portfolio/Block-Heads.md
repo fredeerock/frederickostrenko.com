@@ -7,5 +7,5 @@ year: 2008
 photoset_id: 72157623251519949
 youtube_id:
 artists: Derick Ostrenko
-medium: Bricks, Projector, ID Card Database, Max/MSP
+medium: Bricks, projector, ID card database, Max/MSP
 ---

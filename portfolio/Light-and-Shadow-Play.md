@@ -5,4 +5,8 @@ excerpt: Interactive children's festival installation.
 tags: [portfolio]
 year: 2016
 photoset_id: 72157668848662160
+youtube_id:
+artists:
+medium:
+website:
 ---
