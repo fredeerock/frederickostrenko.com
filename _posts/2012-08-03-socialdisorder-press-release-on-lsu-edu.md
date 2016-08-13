@@ -7,6 +7,7 @@ post_date: 2012-08-03 05:00:19
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <h1>LSU School of Art to Open 2012-13 Season with “social (dis)order” Exhibition Aug. 30-Oct.7 at Alfred C. Glassell Jr. Exhibition Gallery</h1>
 <div>08/03/2012 11:17 AM</div>

@@ -5,6 +5,7 @@ post_date: 2013-11-04 16:09:26
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2014/06/New-exhibit-chalenges-museum-s-norms-lsureveille.com-News.png"><img class="alignnone size-large wp-image-713" alt="New exhibit chalenges museum s norms   lsureveille.com  News" src="/uploads/2014/06/New-exhibit-chalenges-museum-s-norms-lsureveille.com-News-530x1024.png" width="530" height="1024" /></a>
 

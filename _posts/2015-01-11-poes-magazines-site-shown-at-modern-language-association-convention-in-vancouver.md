@@ -5,6 +5,7 @@ post_date: 2015-01-11 22:41:48
 post_excerpt: "more..."
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2015/03/MLA-2015-Program-Session-661.png"><img class="alignnone size-large wp-image-735" src="/uploads/2015/03/MLA-2015-Program-Session-661-1024x811.png" alt="MLA 2015 Program  Session 661" width="640" height="507" /></a>
 

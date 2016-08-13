@@ -5,6 +5,7 @@ post_date: 2013-09-17 16:07:42
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2014/06/LSU-Museum-of-Art-to-Present-“Portraiture-Style-and-Ornament”-Exhibition-by-Artist-Rashaad-Newsome-Through-January-2014.png"><img class="alignnone size-large wp-image-710" alt="LSU Museum of Art to Present “Portraiture  Style and Ornament” Exhibition by Artist Rashaad Newsome Through January 2014" src="/uploads/2014/06/LSU-Museum-of-Art-to-Present-“Portraiture-Style-and-Ornament”-Exhibition-by-Artist-Rashaad-Newsome-Through-January-2014-1024x772.png" width="640" height="482" /></a>
 

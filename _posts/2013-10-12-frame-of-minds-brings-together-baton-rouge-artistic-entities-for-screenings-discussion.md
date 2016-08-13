@@ -5,6 +5,7 @@ post_date: 2013-10-12 08:18:09
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2014/03/Untitled-53.png"><img class="alignnone size-large wp-image-672" alt="Untitled-53" src="/uploads/2014/03/Untitled-53-277x1024.png" width="277" height="1024" /></a>
 

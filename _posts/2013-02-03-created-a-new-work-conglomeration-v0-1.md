@@ -5,6 +5,7 @@ post_date: 2013-02-03 04:38:42
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2013/02/c3.png"><img class="alignnone size-large wp-image-115" alt="c3" src="/uploads/2013/02/c3-1024x646.png" width="625" height="394" /></a>
 

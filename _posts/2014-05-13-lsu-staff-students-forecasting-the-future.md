@@ -7,6 +7,7 @@ post_date: 2014-05-13 19:11:21
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2014/05/LSU-staff-students-forecasting-the-future-WAFB-9-News-Baton-Rouge-Louisiana-News-Weather-Sports.png"><img class="alignnone size-large wp-image-697" alt="LSU staff  students forecasting the future   WAFB 9 News Baton Rouge  Louisiana News  Weather  Sports" src="/uploads/2014/05/LSU-staff-students-forecasting-the-future-WAFB-9-News-Baton-Rouge-Louisiana-News-Weather-Sports-504x1024.png" width="504" height="1024" /></a>
 

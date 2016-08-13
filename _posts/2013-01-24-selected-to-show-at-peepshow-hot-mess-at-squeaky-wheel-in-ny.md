@@ -5,6 +5,7 @@ post_date: 2013-01-24 04:51:16
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2013/02/postcard.gif"><img class="alignnone size-medium wp-image-127" alt="postcard" src="/uploads/2013/02/postcard-300x233.gif" width="300" height="233" /></a><a href="/uploads/2013/02/4339304345_44cffe629d_o-1.jpg"><img class="alignnone size-medium wp-image-128" alt="4339304345_44cffe629d_o (1)" src="/uploads/2013/02/4339304345_44cffe629d_o-1-300x199.jpg" width="300" height="199" /></a>
 

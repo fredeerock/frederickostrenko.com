@@ -5,6 +5,7 @@ post_date: 2014-05-10 16:27:20
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2014/05/A-Vision-of-the-Future-Dig-Baton-Rouge.png"><img class="alignnone size-large wp-image-693" alt="A Vision of the Future   Dig Baton Rouge" src="/uploads/2014/05/A-Vision-of-the-Future-Dig-Baton-Rouge-485x1024.png" width="485" height="1024" /></a>
 

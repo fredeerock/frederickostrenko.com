@@ -5,6 +5,7 @@ post_date: 2014-05-21 23:03:31
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2015/03/Review-ranks-LSU-animation-program-in-South-s-top-10-WAFB-9-News-Baton-Rouge-Louisiana-News-Weather-Sports.png"><img class="alignnone size-large wp-image-744" src="/uploads/2015/03/Review-ranks-LSU-animation-program-in-South-s-top-10-WAFB-9-News-Baton-Rouge-Louisiana-News-Weather-Sports-609x1024.png" alt="Review ranks LSU animation program in South s top 10   WAFB 9 News Baton Rouge  Louisiana News  Weather  Sports" width="609" height="1024" /></a><!--more-->
 MEMBER CENTER:Create Account|Log InASK THE EXPERTJOBLINEWAFBhomesHEALTHLINKSDOUBLE DAY WAFBconnect.comLEGAL CENTERADVERTISING

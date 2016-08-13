@@ -5,6 +5,7 @@ post_date: 2013-02-23 08:04:49
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2014/03/download-9.png"><img class="alignnone size-large wp-image-668" alt="download (9)" src="/uploads/2014/03/download-9-948x1024.png" width="640" height="691" /></a>
 

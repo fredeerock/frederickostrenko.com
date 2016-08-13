@@ -15,6 +15,7 @@ geo_enabled:
   - "1"
 geo_public:
   - "1"
+tags: [updates]
 ---
 <a href="http://iamcurating.tumblr.com/post/38689457269"><img class="alignnone size-full wp-image-36" alt="tumblr_mfe3guyA531qaebujo1_r1_500" src="/uploads/2013/01/tumblr_mfe3guyA531qaebujo1_r1_500.gif" width="500" height="327" /></a>
 

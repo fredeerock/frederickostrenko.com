@@ -5,6 +5,7 @@ post_date: 2013-11-12 23:06:49
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2015/03/Right-Here-Now-exhibition-features-work-of-LSU-faculty-artists-NOLA.com_.png"><img class="alignnone size-large wp-image-747" src="/uploads/2015/03/Right-Here-Now-exhibition-features-work-of-LSU-faculty-artists-NOLA.com_-321x1024.png" alt="Right Here  Now  exhibition features work of LSU faculty artists   NOLA.com" width="321" height="1024" /></a><!--more-->
 

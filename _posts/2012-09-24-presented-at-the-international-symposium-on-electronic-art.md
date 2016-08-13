@@ -7,6 +7,7 @@ post_date: 2012-09-24 10:30:39
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2013/03/Screen-Shot-2013-03-04-at-10.15.42-PM.png"><img class="alignnone size-full wp-image-199" alt="Screen Shot 2013-03-04 at 10.15.42 PM" src="/uploads/2013/03/Screen-Shot-2013-03-04-at-10.15.42-PM.png" width="316" height="142" /></a>
 

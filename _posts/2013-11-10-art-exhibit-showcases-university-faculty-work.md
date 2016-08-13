@@ -7,6 +7,7 @@ post_date: 2013-11-10 15:55:18
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2013/11/Art-exhibit-showcases-University-faculty-work-lsureveille.com-Administration.png"><img class="alignnone size-large wp-image-640" alt="
 Art exhibit showcases University faculty work

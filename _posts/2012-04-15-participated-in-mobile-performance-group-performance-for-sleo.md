@@ -7,6 +7,7 @@ post_date: 2012-04-15 00:59:07
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="http://sleo2012.cct.lsu.edu/"><img class="alignnone size-full wp-image-78" alt="item46327" src="/uploads/2012/04/item46327.png" width="300" height="154" /></a>
 

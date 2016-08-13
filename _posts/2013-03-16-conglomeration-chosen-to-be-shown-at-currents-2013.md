@@ -7,7 +7,7 @@ post_date: 2013-03-16 13:51:49
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
-<a href="/uploads/2013/03/Screen-Shot-2013-03-16-at-8.49.13-AM.png"><img class="alignnone size-full wp-image-415" alt="Screen Shot 2013-03-16 at 8.49.13 AM" src="/uploads/2013/03/Screen-Shot-2013-03-16-at-8.49.13-AM.png" width="534" height="92" /></a>
-
-<a href="http://www.currentsnewmedia.org/"><span style="line-height: 1.714285714; font-size: 1rem;">http://www.currentsnewmedia.org/</span></a>
+![](/uploads/2016/08/Screen Shot 2016-08-12 at 9.55.15 PM.png)
+![](/uploads/2016/08/Screen Shot 2016-08-12 at 9.54.53 PM.png)

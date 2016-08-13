@@ -5,6 +5,7 @@ post_date: 2013-02-11 16:22:03
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="http://www.terminalapsu.org/"><img class="alignnone size-full wp-image-151" alt="terminal complete logotype" src="/uploads/2013/02/terminal-logotype.jpg" width="800" height="140" /></a>
 

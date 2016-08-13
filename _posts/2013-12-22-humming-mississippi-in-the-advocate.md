@@ -5,6 +5,7 @@ post_date: 2013-12-22 18:08:18
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <div>
 

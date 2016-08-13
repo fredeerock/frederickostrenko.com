@@ -8,6 +8,7 @@ post_date: 2013-09-22 16:04:18
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <h1><a href="/uploads/2014/06/Rashaad-Newsome-videos-portrayed-alongside-traditional-portraits-in-LSU-MOA-exhibit-NOLA.com_.png"><img class="alignnone size-large wp-image-706" alt="Rashaad Newsome videos portrayed alongside traditional portraits in LSU MOA exhibit   NOLA.com" src="/uploads/2014/06/Rashaad-Newsome-videos-portrayed-alongside-traditional-portraits-in-LSU-MOA-exhibit-NOLA.com_-382x1024.png" width="382" height="1024" /><!--more--></a></h1>
 <h1>Rashaad Newsome videos portrayed alongside traditional portraits in LSU MOA exhibit</h1>

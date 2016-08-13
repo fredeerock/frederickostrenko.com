@@ -5,6 +5,7 @@ post_date: 2010-10-02 07:16:37
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <span style="text-decoration: underline;"><a href="/uploads/2014/03/download-2.png"><img class="alignnone size-large wp-image-657" alt="download (2)" src="/uploads/2014/03/download-2-869x1024.png" width="640" height="754" /></a><!--more--></span>
 

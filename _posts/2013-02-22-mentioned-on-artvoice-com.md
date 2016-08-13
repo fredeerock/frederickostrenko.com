@@ -5,6 +5,7 @@ post_date: 2013-02-22 01:55:13
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="http://artvoice.com/issues/v12n8/art_scene/peepshow_2013">Peepshow 2013: Hot Mess</a>.
 

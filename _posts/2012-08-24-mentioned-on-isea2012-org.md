@@ -5,6 +5,7 @@ post_date: 2012-08-24 10:30:31
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 Frederick Ostrenko
 Transmodal Journeys: Digital Adventures in the Physical World

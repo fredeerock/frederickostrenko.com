@@ -36,24 +36,27 @@
     <h1>{{ page.title }}</h1>
     <div class="article-wrap">
       {{ content }}
-      
+
       <!-- BEGIN TAG SUPPORT from http://www.minddust.com/post/tags-and-categories-on-github-pages -->
-      <h1>Articles by tag: {{ page.tag }}</h1>
+      <h1>{{ page.tag }}</h1>
       <div>
           {% if site.tags[page.tag] %}
               {% for post in site.tags[page.tag] %}
-                  <a href="{{ post.url }}/">{{ post.title }}</a>
+                  <article>
+                    {% if post.link %}
+                      <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
+                    {% else %}
+                      <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                    {% endif %}
+                  </article>
               {% endfor %}
           {% else %}
               <p>There are no posts for this tag.</p>
           {% endif %}
       </div>
-      <!-- END TAG SUPPORT -->  
+      <!-- END TAG SUPPORT -->
 
-      {% if page.share != false %}
-        <hr />
-        {% include _social-share.html %}
-      {% endif %}
     </div><!-- /.article-wrap -->
     {% if site.owner.disqus-shortname and page.comments == true %}
       <section id="disqus_thread"></section><!-- /#disqus_thread -->

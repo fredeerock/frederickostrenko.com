@@ -1,7 +1,8 @@
 ---
-layout: post 
-title:  "Digital Divide" 
-date:   2016-03-09T02:58:47.910Z 
+layout: post
+title:  "Digital Divide"
+date:   2016-03-09T02:58:47.910Z
+tags: updates
 ---
 ![Digital Divide Poster](../uploads/2016/03/digitaldivide.jpeg)  
 

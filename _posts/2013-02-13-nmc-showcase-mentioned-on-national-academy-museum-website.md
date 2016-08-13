@@ -7,6 +7,7 @@ post_date: 2013-02-13 21:28:44
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2013/02/4th-Annual-New-Media-Caucus-National-Academy-Museum1.png"><img class="alignnone size-large wp-image-181" alt="4th Annual New Media Caucus - National Academy Museum(1)" src="/uploads/2013/02/4th-Annual-New-Media-Caucus-National-Academy-Museum1-631x1024.png" width="625" height="1014" /></a>
 

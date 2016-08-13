@@ -24,6 +24,7 @@ geo_longitude:
   - "-74.005973"
 geo_public:
   - "1"
+tags: [updates]
 ---
 <img class="alignnone" alt="" src="http://www.newmediacaucus.org/wp/wp-content/themes/nmc/ui_images/nmc_headerlogo.png" width="496" height="34" />
 

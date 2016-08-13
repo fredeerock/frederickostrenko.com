@@ -5,6 +5,7 @@ post_date: 2013-09-18 07:34:24
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <div id="WNStoryHeader">
 <h3><a href="/uploads/2014/03/download-6.png"><img class="alignnone size-large wp-image-665" alt="download (6)" src="/uploads/2014/03/download-6-802x1024.png" width="640" height="817" /></a></h3>

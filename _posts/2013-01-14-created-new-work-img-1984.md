@@ -5,6 +5,7 @@ post_date: 2013-01-14 04:46:09
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <a href="/uploads/2013/02/8437104690_fab5e626d2_z.jpg"><img class="alignnone size-medium wp-image-122" alt="8437104690_fab5e626d2_z" src="/uploads/2013/02/8437104690_fab5e626d2_z-300x207.jpg" width="300" height="207" /></a><a href="/uploads/2013/02/8437104838_5e2f2fbc52_z.jpg"><img class="alignnone size-medium wp-image-121" alt="8437104838_5e2f2fbc52_z" src="/uploads/2013/02/8437104838_5e2f2fbc52_z-300x207.jpg" width="300" height="207" /></a>
 

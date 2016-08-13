@@ -5,6 +5,7 @@ post_date: 2013-01-11 06:11:31
 post_excerpt: ""
 layout: post
 published: true
+tags: [updates]
 ---
 <h1><a href="/uploads/2014/03/download-1.png"><img class="alignnone size-large wp-image-654" alt="download (1)" src="/uploads/2014/03/download-1-582x1024.png" width="582" height="1024" /></a></h1>
 <h1><!--more-->Art &amp; Activism in new Digital Media Research Studio</h1>
