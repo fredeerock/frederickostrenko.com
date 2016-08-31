@@ -41,7 +41,7 @@
     {% for post in site.posts %}
 
     {% capture thetags %}{{ post.tags }}{% endcapture %}
-    {% if thetags == "updates" %}
+    {% if thetags != "blog" %}
 
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% if year != written_year %}
