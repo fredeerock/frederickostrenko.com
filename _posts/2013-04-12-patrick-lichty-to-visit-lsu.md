@@ -5,6 +5,7 @@ post_date: 2013-04-12 16:58:21
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 ---
 <p style="text-align: center;"><a href="http://patricklichty.com/"><img alt="" src="/uploads/2013/04/logo2.png" /></a></p>
 <a href="http://patricklichty.com/">Patrick Lichty: Artist, Writer, Curator, Educator, Activist | Patricklichty.com</a>.

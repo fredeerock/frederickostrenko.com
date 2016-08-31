@@ -5,6 +5,7 @@ post_date: 2013-01-31 22:35:28
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/41973316500/antichamber-launch-trailer-january-31st-2013-on

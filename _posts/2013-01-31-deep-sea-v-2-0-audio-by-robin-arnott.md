@@ -5,6 +5,7 @@ post_date: 2013-01-31 22:36:45
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/41973417326/deep-sea-v-2-0-audio-by-robin-arnott

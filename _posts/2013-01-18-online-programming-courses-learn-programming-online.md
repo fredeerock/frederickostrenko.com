@@ -5,6 +5,7 @@ post_date: 2013-01-18 20:51:54
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/40863933979/online-programming-courses-learn-programming-online

@@ -5,6 +5,7 @@ post_date: 2013-02-20 06:30:17
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/43551103081/mironart-by-miron

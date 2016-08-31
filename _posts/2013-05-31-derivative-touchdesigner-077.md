@@ -5,6 +5,7 @@ post_date: 2013-05-31 20:38:25
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 ---
 <a href="http://www.derivative.ca/"><img src='/uploads/2013/05/92.jpg' alt='' /></a>
 

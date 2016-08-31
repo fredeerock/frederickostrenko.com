@@ -5,6 +5,7 @@ post_date: 2013-02-14 23:43:39
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/43107309642/the-simplex-process-problem-solving-training-from

@@ -5,6 +5,7 @@ post_date: 2013-02-21 03:10:49
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/43616877371/ireddit-fredeerock-thinks-youre-going-to-like-this

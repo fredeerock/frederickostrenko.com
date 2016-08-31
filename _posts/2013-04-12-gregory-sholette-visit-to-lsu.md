@@ -5,6 +5,7 @@ post_date: 2013-04-12 16:55:13
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 ---
 <a href="http://www.gregorysholette.com/"><img src='/uploads/2013/04/idrone11.gif' alt='' /></a>
 

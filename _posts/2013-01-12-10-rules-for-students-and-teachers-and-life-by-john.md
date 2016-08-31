@@ -8,6 +8,7 @@ post_date: 2013-01-12 19:00:35
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/40354474805/10-rules-for-students-and-teachers-and-life-by-john

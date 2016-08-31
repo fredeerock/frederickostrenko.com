@@ -5,6 +5,7 @@ post_date: 2013-01-18 22:44:50
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/40872678144/acm-computers-in-entertainment

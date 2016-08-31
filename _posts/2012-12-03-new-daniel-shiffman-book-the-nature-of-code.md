@@ -5,6 +5,7 @@ post_date: 2012-12-03 05:14:59
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/37094392067/new-daniel-shiffman-book-the-nature-of-code

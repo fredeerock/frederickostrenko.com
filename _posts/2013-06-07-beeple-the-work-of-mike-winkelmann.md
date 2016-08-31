@@ -5,6 +5,7 @@ post_date: 2013-06-07 14:59:15
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 ---
 <img alt="" src="https://dl.dropboxusercontent.com/u/11966297/Screen%20Shot%202013-06-07%20at%209.57.41%20AM.png" />
 

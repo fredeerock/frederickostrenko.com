@@ -5,6 +5,7 @@ post_date: 2012-11-26 23:12:00
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/36621114305/murcof-neo-baroque-synaesthesia-in-endless-spaces

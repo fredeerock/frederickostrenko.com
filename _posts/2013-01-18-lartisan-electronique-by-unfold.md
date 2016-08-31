@@ -5,6 +5,7 @@ post_date: 2013-01-18 20:58:00
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/40864379823/lartisan-electronique-by-unfold

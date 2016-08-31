@@ -5,6 +5,7 @@ post_date: 2013-02-12 06:08:09
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/42908616253/infographic-an-amazing-invisible-truth-about

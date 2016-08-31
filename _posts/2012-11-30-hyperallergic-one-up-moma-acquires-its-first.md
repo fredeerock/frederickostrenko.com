@@ -5,6 +5,7 @@ post_date: 2012-11-30 04:17:22
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/36859975858/hyperallergic-one-up-moma-acquires-its-first

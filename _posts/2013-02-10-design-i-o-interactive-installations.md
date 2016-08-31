@@ -5,6 +5,7 @@ post_date: 2013-02-10 17:51:33
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/42765624331/design-i-o-interactive-installations

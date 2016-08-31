@@ -5,6 +5,7 @@ post_date: 2012-11-26 23:16:00
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/36621411586/incredible-depth-camera-a-kinect

@@ -5,6 +5,7 @@ post_date: 2013-01-14 22:58:43
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/40550563585/10-moments-in-digital-art-2012

@@ -7,6 +7,7 @@ post_date: 2013-02-14 15:21:45
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/43078913255/thatcamp-college-art-association-2013-the-humanities

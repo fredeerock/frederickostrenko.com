@@ -5,6 +5,7 @@ post_date: 2013-04-12 19:55:43
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 ---
 <object width="400" height="225"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=4282941&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://www.vimeo.com/moogaloop.swf?clip_id=4282941&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" height="225" width="400" type="application/x-shockwave-flash" /></object>
 

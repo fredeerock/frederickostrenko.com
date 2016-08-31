@@ -5,6 +5,7 @@ post_date: 2013-04-30 22:44:37
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 ---
 <iframe src="http://www.youtube.com/embed/1fi6Gw_uTAA" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 

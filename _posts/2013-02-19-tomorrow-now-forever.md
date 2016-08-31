@@ -5,6 +5,7 @@ post_date: 2013-02-19 06:30:25
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/43470900709/tomorrow-now-forever

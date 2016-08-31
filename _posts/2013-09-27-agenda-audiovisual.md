@@ -6,6 +6,7 @@ post_excerpt: ""
 layout: post
 published: true
 tags: [updates]
+tags: [blog]
 ---
 <h1> <a href="/uploads/2014/03/download-3.png"><img class="alignnone size-large wp-image-660" alt="download (3)" src="/uploads/2014/03/download-3-964x1024.png" width="640" height="679" /></a><!--more--><a href="/uploads/2013/09/download-5.png"><img class="alignnone size-large wp-image-662" alt="download (5)" src="/uploads/2013/09/download-5-955x1024.png" width="640" height="686" /></a></h1>
 <h1>AGENDA |Cine/Audiovisual</h1>

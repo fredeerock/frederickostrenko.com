@@ -5,6 +5,7 @@ post_date: 2012-12-01 04:48:00
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/36930965253/premiere-one-millionth-tower-high-rise-documentary

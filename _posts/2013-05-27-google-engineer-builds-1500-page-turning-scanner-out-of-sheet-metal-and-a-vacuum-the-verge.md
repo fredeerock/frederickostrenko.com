@@ -8,5 +8,6 @@ post_date: 2013-05-27 20:17:21
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 ---
 <iframe src="http://www.youtube.com/embed/4JuoOaL11bw?feature=player_embedded" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>

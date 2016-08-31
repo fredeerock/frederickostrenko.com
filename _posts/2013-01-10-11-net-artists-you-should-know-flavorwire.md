@@ -7,6 +7,7 @@ post_date: 2013-01-10 19:46:09
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/40190745310/11-net-artists-you-should-know-flavorwire

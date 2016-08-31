@@ -5,6 +5,7 @@ post_date: 2013-02-10 17:58:50
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/42766201155/lasersaur-by-nortd-labs

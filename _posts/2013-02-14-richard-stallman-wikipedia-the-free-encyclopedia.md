@@ -5,6 +5,7 @@ post_date: 2013-02-14 23:41:45
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/43107176085/richard-stallman-wikipedia-the-free-encyclopedia

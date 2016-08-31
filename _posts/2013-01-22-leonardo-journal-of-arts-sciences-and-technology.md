@@ -7,6 +7,7 @@ post_date: 2013-01-22 18:49:15
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/41208809792/leonardo-journal-of-arts-sciences-and-technology

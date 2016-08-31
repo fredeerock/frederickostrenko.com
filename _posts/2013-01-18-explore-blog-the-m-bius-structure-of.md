@@ -5,6 +5,7 @@ post_date: 2013-01-18 20:25:32
 post_excerpt: ""
 layout: post
 published: true
+tags: [blog]
 tumblr_popsnorkle_permalink:
   - >
     http://popsnorkle.tumblr.com/post/40862037844/explore-blog-the-m-bius-structure-of
