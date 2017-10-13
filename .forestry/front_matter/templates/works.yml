@@ -1,0 +1,21 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: Year
+  name: year
+- type: text
+  name: artist
+  label: Artist
+- type: text
+  name: medium
+  label: Medium
+- type: text
+  name: website
+  label: Website
+- type: textarea
+  name: description
+  label: Description
+- type: image_gallery
+  name: media
+  label: Media
