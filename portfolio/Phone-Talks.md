@@ -6,7 +6,7 @@ tags: [portfolio]
 year: 2010
 photoset_id: 72157625091318032
 youtube_id:
-artists: Derick Ostrenko, Laura Alesci, Dylan Greif
+artists: Laura Alesci, Dylan Greif, Derick Ostrenko
 medium: Arduino, phone booth, custom software
 website:
 ---
