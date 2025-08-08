@@ -7,7 +7,11 @@
 #   url: /posts/
 
 - title: Portfolio
-  url: /portfolio/
+  url: https://dostrenko.notion.site/portfolio
+  # url: /portfolio/
 
 # - title: Student Work
 #   url: http://lsudigitalart.tumblr.com/
+
+- title: CV
+  url: https://dostrenko.notion.site/cv
